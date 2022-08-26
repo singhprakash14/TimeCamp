@@ -37,7 +37,7 @@ body{
 }
 #features{
     display: flex;
-    gap: 8%;
+    gap: 10%;
 }
 #buttom_2{
     display: flex;
@@ -75,8 +75,9 @@ body{
     left: 0;
     /* top:calc(100% + .25rem); */
     padding:10px 20px;
-    box-shadow: rgba(100, 100, 111, 0.5) 0px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 0px 10px 10px;
     opacity: 0;
+    width: max-content;
     pointer-events: none;
     border-radius: 5px;
     transition: opacity 550ms ease-in-out,transform 550ms ease-in-out;
