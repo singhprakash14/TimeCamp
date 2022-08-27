@@ -20,7 +20,7 @@ class user{
             });
             if(flag){
                 alert("Log in Successful!");
-                window.location.href = "profile.html";
+                window.location.href = "Onboarding.html";
             }
             else{
                 alert("Users doesn't exist!");

@@ -1,0 +1,70 @@
+body{
+    background-color: #fff;
+}
+#navbar>#nav_div>div{
+    width: 60%;
+}
+
+#part-1>label{
+    /* font-size: 15px;border: 1px solid gray; */
+    text-align: left;
+    margin-left: 10px;
+    color: rgba(48, 48, 48, 0.92);
+}
+#navbar+div{
+    position: relative;
+    left: 25px;
+}
+#part-1>input{
+    margin-left: 10px;
+    width: 450px;
+    height: 38px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 1px solid rgba(123, 122, 122, 0.499);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#part-1>input:focus{
+    outline: 1px solid rgba(163, 162, 162, 0.714);
+}
+#part-1>div:nth-last-child(3){
+    margin-left: 10px;
+    
+}
+#part-1>div:nth-last-child(3)>input{
+    width: 450px;
+    height: 38px;padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(123, 122, 122, 0.52);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#part-1>label,#part-1>input,#part-1>div:nth-last-child(3){
+    position: relative;
+    top: 20px;
+    left: 230px;
+}
+#span{
+    height: 10px; width: 10px; border-radius: 100px; position: relative;top:7px;margin-right: 5px;
+}
+/* #span+span{
+    color: ;
+} */
+.id{
+    display: flex;position: absolute;top: 18px;left: 15px;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    border-radius: 5px;
+    /* width: 200px; */
+}
+.id>div{
+    display: flex;
+    border-radius: 5px;
+}
+#buttons{
+    margin-left: 30px;
+}
+#buttons>button{
+    width: 220px;
+}

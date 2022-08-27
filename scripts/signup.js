@@ -27,6 +27,7 @@ class user {
                 alert(`Welcome, Successfully Sign Up`);
                 users.push(this);
                 localStorage.setItem('users', JSON.stringify(users));
+                window.location.href = "Onboarding.html"
             }
         }
     }
