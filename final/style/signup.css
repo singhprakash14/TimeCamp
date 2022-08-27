@@ -1,0 +1,82 @@
+#form-2{
+    /* border: 1px solid black; */
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 30px 60px 60px 50px;
+    margin-top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#navbar>a{
+    position: absolute;
+    right: 350px;
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 35px;
+}
+h4{
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -17px;
+    margin-bottom: -7px;
+    color: rgb(99, 98, 98);
+}
+h5{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#form-2>#link{
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.451);
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    padding-left: 30px;
+}
+#link>.link{
+    color: rgb(94, 93, 93);
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+#link+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#form-2>#email,#password,#number{
+    position: relative;
+    left:13px;
+    height: 31px;
+    width: 327px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    margin-bottom: 15px;
+}
+#form-2>button{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+}
+p:last-child{
+    margin-left: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+p>a{
+    font-size: 14px;
+    color:  #25cf60;
+}
