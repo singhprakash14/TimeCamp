@@ -1,6 +1,8 @@
 html {
     quotes: "“" "”";
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    scrollbar-3dlight-color: #25CF60;
 }
 body{
     font-family: Lato, sans-serif;
@@ -21,7 +23,7 @@ h1{
     background-image: url("https://img.freepik.com/free-photo/business-team-working-office-discussing-job-issues_1303-30564.jpg?w=2000");
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 2px;
     gap :3%;
     padding: 7%;
     text-align: center;
@@ -31,6 +33,8 @@ h1{
 }
 #div_1>div{
     width: 40%;
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
     flex-wrap: wrap;
     border-radius: 10px;
     padding: 2% 0%;
@@ -168,7 +172,7 @@ img{
     width: 100%;
 }
 #div_8{
-    width: 100%;
+    width: 99.6%;
     background-color: black;
     height: 500px;
     padding-top: 15px;
@@ -195,7 +199,8 @@ img{
     width: 80%;
 }
 #div_9{
-    width: 100%;
+    width: 98%;
+    
 }
 #div_9>div:nth-child(1){
     width: 60%;
@@ -208,30 +213,6 @@ img{
 #div_9>div:nth-child(1)>h1{
     font-size: 34px;
 }
-.owl-stage{
-    -webkit-text-size-adjust: 100%;
-    quotes: "“" "”";
-    -webkit-font-smoothing: antialiased;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 300;
-    font-family: nunito sans,sans-serif;
-    color: #1b1b20;
-    -webkit-tap-highlight-color: transparent;
-    box-sizing: inherit;
-    position: relative;
-    touch-action: manipulation;
-    transition: all 0.45s ease 0s;
-    width: 100%;
-    transform: translate3d(-1354px, 0px, 0px);
-}
-.item{
-    position: absolute;
-    inset: 0;
-    /* opacity: 0; */
-}
-
-
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -296,14 +277,14 @@ img{
     width: 100px; 
 }
 #div_11{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-items: center;
     align-items: center;
 }
 #div_11>div{
-    width: 40%;
+    width: 38%;
     flex-wrap: wrap;
     margin: auto;
 }
@@ -322,6 +303,8 @@ img{
     margin-bottom: 6%;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform-style: preserve-3d;
+    transform: translateZ(20px)
 }
 #div_11>div:nth-child(2){
     display: grid;
@@ -380,6 +363,14 @@ a{
     position: relative;
     text-align: center;
 }
+.effect{
+    transform-style: preserve-3d;
+    transform: translateZ(20px)
+}
+#effect2{
+    transform-style: preserve-3d;
+    transform: translateZ(20px)
+}
 #select{
     left: 0;
     top:0;
@@ -426,8 +417,8 @@ a{
     position: absolute;
     width: 35px;
     bottom: -40px;
-    right: -40px;
-    border: 1px solid;
+    right: 23%;
+    /* border: 1px solid; */
 }
 .div12_price{
     border-bottom: 1px solid #696b6a;
@@ -538,7 +529,7 @@ a{
 #last{
     padding: 3%;
     margin-top: 80px;
-    width: 100%;
+    width: 93.8%;
 }
 #last>p{
     margin-left: 10%;
@@ -560,8 +551,23 @@ a{
     width: max-content;
     width: 180px;
 }
+#last_2>div{
+    padding: 4%;
+    background: linear-gradient(#fff0 0%, #fff0 70%,#1d1d1d 100%);
+    background-size: cover;
+    box-shadow: rgba(16, 16, 75, 0.759) 0px 7px 29px 0px;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transform: translateZ(20px)
+}
 #last_2 img{
     width: 100%;
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+    border-radius: 20px;
+    background: linear-gradient(#fff0 0%, #fff0 70%,#1d1d1d 100%);
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 #last_2{
     width: 80%;
@@ -569,4 +575,84 @@ a{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform-style: preserve-3d;
+    transform: translateZ(20px)
 }
+
+/* .review-img{
+    display: none;
+} */
+/* .item{
+    width: 340px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid;
+    max-width: fit-content;
+}
+.stage {
+   width: 10%;
+   margin: auto;
+   display: flex;
+   gap: 10px;
+} */
+/* html,
+body {
+  position: relative;
+  height: 100%;
+} */
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+.swiper {
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  /* padding: 4%; */
+  background-color: #cdbbbb;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 15%;
+  position: absolute;
+  top: -20px;
+  left: 15px;
+}
+.swiper-slide p{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    font-size: 20px;
+}
+.swiper-slide>span{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+} 
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior:100px;;
+  }
+}
+
+
+  
