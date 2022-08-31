@@ -50,20 +50,17 @@ function footer(){
     </div>
     </div>
 </div>
-
-  <div class="footer_fir1">
-            <span><a href="https://www.facebook.com/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/facebook.svg"/></a></span>
-            <span><a href="https://www.linkedin.com/company/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/linkedin.svg"alt=""></a></span>
-            <span><a href="https://twitter.com/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/twitter.svg" alt=""></a></span>
-        </div> 
-        <br>
-        <br>
+<div class="footer_fir1">
+          <span><a href="https://www.facebook.com/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/facebook.svg"/></a></span>
+             <span><a href="https://www.linkedin.com/company/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/linkedin.svg"alt=""></a></span>
+             <span><a href="https://twitter.com/timecamp/"><img src="https://cdn-m.timecamp.com/img/greenbranding/twitter.svg" alt=""></a></span>
+         </div> 
+    <br>
         <div class="thir1">
             <h2>Copyright © 2022 TimeCamp. Inc.</h2>
             <p>We use cookies. Click here to learn more</p>
         </div>`
-
-
-    
 }
 export default footer
+
+    

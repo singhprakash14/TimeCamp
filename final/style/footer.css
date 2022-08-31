@@ -4,28 +4,35 @@
  body{
  line-height:1.5;
  font-family: 'Poppins','sans-serif'; 
+ margin: 0;
+ padding:0;
  }
  
  #footer_main {
     width: 70%;
-    height: 240px;
+    height: auto;
     margin: auto;
     margin-top: 70px;
+    border: solid 1px red ;
+    
     
   }
+  .footer_sec{
+    border: solid 1px red ;
+  }
+  
   
   /* footer1 */
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 1000px) {
     /* footer1 */
     .footer_fir1 {
       width: 100%;
-      margin-left: 100px;
+      /* margin-left: 100px; */
       
     }
   
     .footer_fir1 > span > a > img {
       width: 2px;
-      margin-right: 15px;
       text-align: center;
 
     }
@@ -34,11 +41,12 @@
     }
     /* footer2 */
     .footer_sec {
-      width: 110%;
-      margin-top: 50px;
+      width: 100%;
+      margin-top: 0px;
+      height: auto;
       /* border-bottom: 2px solid grey; */
       padding-bottom: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .sec3 {
@@ -75,7 +83,7 @@
       color: grey;
     }
     .sec5 {
-      margin-left: auto;
+      margin-left: 0px;
       
     }
     .sec5 > h2 {
@@ -118,7 +126,7 @@
       color: grey;
     }
   }
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 800px) {
     .footer_firs {
       width: 100%;
       display: flex;
@@ -225,11 +233,10 @@
       margin-left: 10px;
     }
   }
-  
-  @media screen and (min-width: 1300px) {
+  @media screen and (max-width: 500px) {
     .footer_fir1 {
       /* margin-left: auto; */
-      margin-top: 180px;
+      margin-top: 100px;
       text-align: center;
       
     }
@@ -246,7 +253,6 @@
       width: 100%;
       display: flex;
       margin-top: 50px;
-      /* border-bottom: 2px solid grey; */
       padding-bottom: 20px;
       margin-bottom: 20px;
     }
@@ -283,45 +289,6 @@
       color: grey;
     }
     .sec4 > p :hover{
-      color: rgb(236, 236, 41);
-    }
-    .sec5 {
-      margin-left: 200px;
-    }
-    .sec5 > h2 {
-      margin-top: 0px;
-
-    }
-    .sec5 a{
-      text-decoration: none;
-      color: grey;
-    }
-    .sec5 > p {
-      margin-top: -5px;
-      font-size: 20px;
-      color: grey;
-    }
-    .sec5 > p :hover{
-      color: rgb(236, 236, 41);
-    }
-    .sec6 {
-      margin-left: 100px;
-      
-    }
-    .sec6 > h2 {
-      margin-top: 0px;
-
-    }
-    .sec6 a{
-      text-decoration: none;
-      color: grey;
-    }
-    .sec6 >p{
-      margin-top: -5px;
-      font-size: 20px;
-      color: grey;
-    }
-    .sec6 > p :hover{
       color: rgb(236, 236, 41);
     }
     /* footer third */

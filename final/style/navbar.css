@@ -4,35 +4,37 @@ body{
 }
 #upper_navbar{
     text-align: center;
-    margin-top: -8px;
+    margin-top: -2px;
     width: 100%;
     background-color:#25cf60 ;
 }
 #upper_navbar>p{
     width: 60%;
     margin: auto;
-    padding: 15px 0px;
+    padding: 20px 0px;
     color: white;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 20px;
 }
 #buttom_navbar img{
-    width: 180px;
+    width: 200px;
 }
 #buttom_navbar{
     position: sticky;
     top: 0;
     z-index: 1000000;
     width: 100%;
+    height:auto;
     padding: 15px 0px;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 400;
     display: flex;
     background-color: white;
-    box-shadow: rgba(6, 29, 25, 0.932) 0px 7px 29px 0px;
+    box-shadow: rgba(50, 68, 7, 0.932);
+
 }
 #buttom_navbar>div{
-    width: 75%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -40,22 +42,30 @@ body{
 }
 #features{
     display: flex;
-    gap: 10%;
+    gap: 35%;
 }
 #buttom_2{
     display: flex;
-    gap: 5%;
-    width: 300px;
+    width:30%;
+    height:auto;
+    gap:2%;
+
 }
 #buttom_2>div{
+    width:auto;
+    gap:10%;
     margin: auto;
+    height: auto;
+    font-size: 19px;
 }
 #buttom_2 button{
-    padding: 0px 30px;
+    padding: 10px 40px;
     border-radius: 30px;
     background-color:#f7b801 ;
     border: 0px;
+    margin: auto;
 }
+
 #buttom_2 button a{
     color: white;
     text-decoration: none;

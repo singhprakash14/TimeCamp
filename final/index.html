@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Tracking Software - Free Automated Time Tracker TimeCamp</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/index.css">
     <link href="navbar.html" rel="import">
     <link
@@ -12,8 +14,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="style/navbar.css">
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="style/footer1.css">
+    <link rel="stylesheet" href="style/demo.css">
 </head>
 <body>
     <!-- <div id="upper_navbar">
@@ -62,7 +64,7 @@
     <div id="navbar_con"></div>
     <div id="main">
         <div id="div_1">
-           <div data-tilt data-tilt-scale="1.1">
+           <div>
                 <p>Free time tracking software</p>
                 <h1>Happy to see you again! Book TimeCamp set-up call</h1>
                 <p>✓ Showing how TimeCamp works in 15 minutes</p>
@@ -72,7 +74,7 @@
                 <p>or</p>
                 <button>Go to App</button>
            </div>
-           <div data-tilt data-tilt-scale="1.1" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+           <div>
                 <img src="https://cdn-m.timecamp.com/img/person.jpg" alt="">
                 <h5>Adam Wagner, Co-owner and Chief Strategy Officer</h5>
                 <p>„TimeCamp proved to be an essential management tool that gives us clear insight into a project’s efficiency and helps to avoid an overblown workload for our team.”</p>
@@ -344,14 +346,14 @@
                 <p style="color:#25cf60">PRICING</p>
                 <h2>Your time cost more</h2>
                 <p>Use free forever plan or subscribe to a paid plan to get more features!</p>
-                <div id="effect2" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                <div id="effect2">
                     <div id="select"></div>
                     <button onclick="doller1()" id="don_1">Annually 10% discount</button>
                     <button onclick="doller2()" id="don_2">Monthly</button>
                 </div>
             </div>
-            <div class="effect" data-tilt data-tilt-scale="1.1">
-                <div data-tilt data-tilt-scale="1.1">
+            <div class="effect" >
+                <div>
                     <div class="div12_price">
                         <h1>Free</h1>
                         <p>Free forever plan</p>
@@ -370,7 +372,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-tilt data-tilt-scale="1.1">
+                <div >
                     <div class="div12_price">
                         <p style="color:#25cf60 ;font-size: 8px;">BASIC</p>
                         <h1><span>$</span><span id="pro2">6.3</span></h1>
@@ -405,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-color: #25cf60; color: white;" data-tilt data-tilt-scale="1.1">
+                <div style="background-color: #25cf60; color: white;">
                     
                     <div class="div12_price">
                         <p style="font-size: 8px;">PRO</p>
@@ -440,7 +442,7 @@
                     </div>
                     <img src="https://cdn-m.timecamp.com/img/landing-page/pricing-icon-pro.png" alt="">
                 </div>
-                <div data-tilt data-tilt-scale="1.1">
+                <div>
                     <div class="div12_price">
                         <p style="color:#25cf60;font-size: 8px;">ENTERPRISE</p>
                         <h2>Let's discuss</h2>
@@ -529,17 +531,17 @@
                 <button class="btn">Check all articles</button>
             </div>
             <div id="last_2">
-                <div data-tilt data-tilt-scale="1.1" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                <div>
                     <img src="https://www.timecamp.com/blog/wp-content/uploads/2022/08/business-metrics-header-400x219.png" alt="">
                     <h3>Business performance metrics to follow in 2022</h3>
                     <a href="https://www.timecamp.com/blog/2022/08/business-performance-metrics-to-follow-in-2022/">Read more</a>
                 </div>
-                <div data-tilt data-tilt-scale="1.1" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                <div>
                     <img src="https://www.timecamp.com/blog/wp-content/uploads/2022/08/best-apps-for-lawyers-400x219.jpg" alt="">
                     <h3>Best Apps for Lawyers</h3>
                     <a href="https://www.timecamp.com/blog/2022/08/best-apps-for-lawyers/">Read more</a>
                 </div>
-                <div data-tilt data-tilt-scale="1.1" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+                <div>
                     <img src="https://www.timecamp.com/blog/wp-content/uploads/2022/08/designer-time-tracking-400x219.jpg" alt="">
                     <h3>Best Designer Time Tracking Apps</h3>
                     <a href="https://www.timecamp.com/blog/2022/08/best-designer-time-tracking-apps/">Read more</a>
@@ -574,10 +576,10 @@
 
 <script type='module'>
 
-    import footer from './components2/footer.js'
+    import footer1 from './components2/footer1.js'
         
     let container1 =document.getElementById('footer_con')
-    container1.innerHTML=footer()
+    container1.innerHTML=footer1()
     
     
     import navbar from './components2/navbar.js'

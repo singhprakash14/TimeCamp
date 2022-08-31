@@ -39,7 +39,7 @@ function navbar(){
             </div>
         </div>
         <div id="buttom_2">
-        <div><p class="text" onclick="(location.href='Bookdemo.html')">Book a Demo</p></div> 
+        <div><p class="text" onclick="(location.href='demo.html')">Book a Demo</p></div> 
         <div><p class="text" onclick="(location.href='signUp.html')">Sign in</p></div>
         <button><a href="https://app.timecamp.com/dashboard">Go to App</a></button>
         </div>

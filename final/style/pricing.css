@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: #1b1b20;
+}
 #top{
   background-color: rgb(224, 217, 217);
   width:100%;
@@ -7,17 +15,17 @@
 .top1>h1{
   text-align: center;
   margin-top: 280px;
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 600;
 }
 .top1>p{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .top1>h2{
   text-align: center;
-  font-size:40px
+  font-size:30px
 }
 #butt{
   width: 220px;
@@ -46,32 +54,33 @@
 
   .pricing_first {
     width: 100%;
-    height: 750px;
+    height: auto;
     text-align: center;
-    padding-top: 50px;
+    margin:auto;
+    /* padding-top: 50px;
     margin-left: -8px;
     padding-right: 17px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
   
   }
   .pricing_first > h3 {
     color: rgb(164, 243, 111);
   }
   .pricing_first > h1 {
-    font-size: 66px;
+    font-size: 46px;
+    text-align: center;
     color: rgb(16, 19, 15);
   }
   .pricing_first > h2 {
     font-size: 28px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     color:rgb(97, 94, 94)
   }
   .pricing_second {
     width: 95%;
+    height: auto;
     margin:auto;
-    margin-top: -480px;
     display: flex;
-    margin-left: 100px;
   }
   .line2{
     border-top:1px solid white;
@@ -325,7 +334,7 @@
 
   .bor {
     border: 0.5px solid grey;
-    width: 90%;
+    width: 70%;
     margin: 40px auto;
   }
 
@@ -351,28 +360,29 @@
   }
   .trusted>img{
     width:auto;
-    height:70px;
+    height:40px;
   
   }
   .bookdemo{
-    width: 80%;
-    height: 500px;
+    width: 90%;
+    height:auto;
     margin: auto;
     background-color: rgb(243,243,243);
     border-radius: 20px;
   }
   .bookdemo>h1{
- font-size:42px;
+ font-size:32px;
  text-align: center;
 font-family: sans-serif; 
 margin:0px 83.16px 83.142px;
 padding: 64px 0px 0px;
 }
 .bookdemo>h2{
-  font-size:21px;
+  font-size:17px;
   text-align: center;
   margin:48px 0px 0px;
   font-family: sans-serif;
+  padding-bottom:60px;
 }
 .bookdemobtn{
   display:flex;
@@ -387,8 +397,8 @@ padding: 64px 0px 0px;
   font-size: 23px;
   background-color:rgb(247,184,1);
   color: white;
-  margin-top: 60px;
   align-items: center;
+  margin-bottom: 20px;
 
 }
 .bookdemobtn > button:hover {
@@ -563,22 +573,25 @@ margin-left: 10px;
     padding-left: 15px
 }
 
-.tracking{
+#track{
   width:80%;
-  height:300px;
-  margin: auto;
+  margin:auto;
+  height: auto;
+}
+.tracking{
+  width:auto;
+  height:300px ;
   display: flex;
   justify-content: center;
   gap: 30px;
   background-color:rgba(224, 215, 215, 0.829);
   border-radius:55px;
+  size: 10px;
+  font-size: 20px;
+  align-items: center;
 }
 
- .tracking{
-  size: 40px;
-  font-size: 30px;
-  align-items: center;
-} 
+
  
 .trackingbtn{
   display:flex;
@@ -590,7 +603,7 @@ margin-left: 10px;
   height: 80px;
   border-radius: 40px;
   border: none;
-  font-size: 28px;
+  font-size: 22px;
 font-family: sans-serif;
   background-color:rgb(247,184,1);
   color: rgb(12, 11, 11);
@@ -605,7 +618,7 @@ font-family: sans-serif;
 }
 
 
-.text>h2{
+.text1>h1{
   font-size:40px;
 }
 .row{
@@ -657,19 +670,19 @@ font-family: sans-serif;
   }
 }
 
-#prizes .container .row .right .text,#prizes .container .row .right .medals-wrapper {
+#prizes .container .row .right .text1,#prizes .container .row .right .medals-wrapper {
   width: 90%;
   margin-left: auto
 }
 
 @media(max-width: 767px),(min-width:768px) and (max-width:991px) {
-  #prizes .container .row .right .text,#prizes .container .row .right .medals-wrapper {
+  #prizes .container .row .right .text1,#prizes .container .row .right .medals-wrapper {
       width:100%;
       text-align: center
   }
 }
 
-#prizes .container .row .right .text h2 {
+#prizes .container .row .right .text1 h1 {
   font-size: 36px;
   font-weight: 700;
   width: 67%
@@ -688,13 +701,13 @@ font-family: sans-serif;
   gap:20px;
 }
 @media(max-width: 767px),(min-width:768px) and (max-width:991px) {
-  #prizes .container .row .right .text h2 {
+  #prizes .container .row .right .text1 h1 {
       width:100%;
       text-align: center
   }
 }
 
-#prizes .container .row .right .text p {
+#prizes .container .row .right .text1 p {
   margin: 2rem 0;
   color: #1b1b20;
   font-size: 18px;
