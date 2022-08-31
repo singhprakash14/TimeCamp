@@ -5,18 +5,20 @@ Home Page
 
 ![home1](https://user-images.githubusercontent.com/101583807/187609641-304fcfa5-120b-4cbb-994c-0a9be0b19696.png)
 
-pricing
+Pricing page
 
-![pricing](https://user-images.githubusercontent.com/101583807/187638420-9a0930a3-782b-4201-9270-c6018a1bc69b.png)
+![pricing1](https://user-images.githubusercontent.com/101583807/187647125-35358e8c-e5a1-4e1d-9ebe-c7a0e753a41d.png)
 
-blog
+blog page
 
-![blog1](https://user-images.githubusercontent.com/101583807/187638596-c42af9e6-bcc5-4a2d-bf89-dc9de76df447.png)
+![pricing](https://user-images.githubusercontent.com/101583807/187647369-5fa77b0e-2b6f-4eee-b8cb-82d0df5eead8.png)
 
-demo
 
-![demo](https://user-images.githubusercontent.com/101583807/187638773-d59066f9-9104-47f0-9672-af8898d94810.png)
+demo page
 
-Signup
+![demo](https://user-images.githubusercontent.com/101583807/187647482-7971fe46-55ce-475b-8ba6-2e89143a55a5.png)
 
-![Signup](https://user-images.githubusercontent.com/101583807/187638903-435f2a5e-2370-4da1-94e4-78444a099ea5.png)
+Signup page
+
+![Signup](https://user-images.githubusercontent.com/101583807/187647594-97838a92-b164-46f2-aedf-04df91765712.png)
+
