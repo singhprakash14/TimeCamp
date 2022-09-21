@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding</title>
+    <!-- <link rel="stylesheet" href="style/login.css"> -->
+    <link rel="stylesheet" href="style/Onboarding-2.css">
+</head>
+<body>
+    <div id="body">
+        <div id="part-1">
+            <div id="navbar">
+                
+            </div>
+            <div id="heading">How many people will use TimeCamp?</div>
+            <div id="buttons">
+                <button id="1" onclick="fun1()" value = "Just me">Just me</button>
+                <button id="2" onclick="fun2()" value = "2-10">2-10</button>
+                <button id="3" onclick="fun3()" value = "11-50">11-50</button>
+                <button id="4" onclick="fun4()" value = "51-250">51-250</button>
+                <button id="5" onclick="fun5()" value = "250 and more">250 and more</button>
+            </div>
+            <button id="continue" onclick="Continue()" disabled >Continue</button>
+        </div>
+        <div id="part-2">
+            <img src="https://app.timecamp.com/res/wizard/onboarding/images/teamSize.svg" alt="">
+        </div>
+    </div>
+    <script src="./scripts/onboarding-2.js" type="module"></script>
+</body>
+</html>

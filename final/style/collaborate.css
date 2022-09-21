@@ -1,0 +1,91 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#part-1{
+    width: 1000px;
+}
+#body>#part-1>#navbar{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+#body>#part-1>#navbar>img{
+    max-height: 40px;
+}
+#body>#part-1>#navbar>#nav_div{
+    position: relative;
+    left: 10px;
+}
+#navbar>#nav_div>div{
+    width: 30%;
+}
+#body>#part-1>.body-1{
+    margin-top: 80px;
+}
+.body-1>div:first-child{
+    position: relative;
+    left: 35%;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: rgb(41, 41, 41);
+    margin-top: -40px;
+}
+.body-1>div:nth-child(2){
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    position: relative;
+    left: 25%;
+    color: rgb(101, 101, 101)
+}
+#part-2>img{
+    /* border: 1px solid green; */
+    margin-left: -60px;
+}
+
+.body-1>input{
+    position: relative;
+    /* display:flex; */
+    /* gap: 10px; */
+    top: 2px;
+    left: 26%;
+    width: 500px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(113, 113, 113, 0.456);
+    font-size: 15px;
+    color: rgba(168, 165, 165, 0.507);
+    padding-left: 20px;
+}
+.body-1>input:focus{
+    outline: 0.5px solid  rgba(113, 113, 113, 0.456)
+}
+
+.body-1>#buttons{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.body-1>#buttons>button{
+    width: 250px;
+    font-size: 17px;
+    color: gray;
+    height: 40px;
+}
+.body-1>#buttons>button:nth-child(2){
+    background-color:  #25cf60;
+    color: #fff;
+}

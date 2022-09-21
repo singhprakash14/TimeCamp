@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style/login.css">
+  <link rel="stylesheet" href="style/signup.css">
+</head>
+<body>
+  <div id="navbar" onclick="(location.href='index.html')"> 
+    <img src="https://cdn.timecamp.com/res/css/images/greenbranding/TC-logo.1661262860.svg" alt="">
+    <a href="login.html">Log in</a>
+  </div>
+  <div id="form-2">
+    <h3>Start tracking time</h3>
+    <h4>Create an account and start with a free 14-day trial</h4>
+  <h5>All features. No credit card required</h5>
+    <!-- this is the space for Sign in by google -->
+   <div id="link">
+      <a class="links" href="https://chrome.google.com/webstore/detail/time-tracker-by-timecamp/ohbkdjmhoegleofcohdjagmcnkimfdaa"><img src="https://cdn.timecamp.com/res/css/images/btn_google_sign_in.png" alt=""></a>
+      <a class="link" href="https://chrome.google.com/webstore/detail/time-tracker-by-timecamp/ohbkdjmhoegleofcohdjagmcnkimfdaa">Log in with Google</a>
+    </div>
+    <p>Or</p>
+    <input type="email" id="email" placeholder="Email"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <input type="number" id="number" placeholder=" Number (optional)"><br>
+    <button onclick="signUp()">Signup for free</button>
+    <p>By signing up you agree to our <a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+  </div>
+</body>
+</html>
+<script src="./scripts/signup.js"></script>
