@@ -1,0 +1,124 @@
+#body{
+    background-color: #fff;
+  }
+  #navbar>#nav_div>div{
+      width: 45%;
+      /* border: 1px solid black; */
+  }
+  #navbar+div{
+      font-size: 25px;
+      margin-top: 100px;
+      text-align: center;
+  }
+  #main{
+      display: flex;
+      margin: auto;
+      gap: 20px;
+      position: relative;
+      left: 250px;
+      top: 70px;
+  }
+  #img+p{
+      text-align: center;
+      width: 200px;
+  }
+  
+  #part-2{
+      margin-left: 60px;
+      /* padding-right: 100px; */
+  }
+  #part-2>img{
+      margin-left: -30px;
+  }
+  
+  /*  */
+  
+  /* input[type = checkbox]{
+      color: white;
+      background: #25cf60;
+  }
+  input[type = checkbox]:checked{
+      background: #25cf60;
+  } */
+  #second>.container{
+      margin-top: -19px;
+  }
+  .round {
+      position: relative;
+      left: 190px;
+      bottom: 230px;
+    }
+    
+    .round label {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 28px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      /* bottom: 100px; */
+      width: 28px;
+    }
+    
+    .round label:after {
+      border: 2px solid #fff;
+      border-top: none;
+      border-right: none;
+      content: "";
+      height: 6px;
+      left: 7px;
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      transform: rotate(-45deg);
+      width: 12px;
+    }
+    
+    .round input[type="checkbox"] {
+      visibility: hidden;
+    }
+    
+    .round input[type="checkbox"]:checked + label {
+      background-color: #66bb6a;
+      border-color: #66bb6a;
+    }
+    
+    .round input[type="checkbox"]:checked + label:after {
+      opacity: 1;
+    }
+    /* general styling */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    
+    body {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: #f1f2f3;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    
+    .container {
+      margin: 0 auto;
+    }
+  
+  
+  
+    #buttons{
+      position: relative;
+      left: 70px;
+      bottom: 120px;
+    }
+    #buttons>button{
+      width: 220px;
+    }
+    #buttons>button:nth-child(2){
+      background-color: #66bb6a;
+      color: #fff;
+    }
