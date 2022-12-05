@@ -99,76 +99,7 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 
 ## Getting Started
 
-This project was built using React, Chakra UI, HTML, CSS, JavaScript, Rest API, Node JS, Express and MongoDB . It is an e-commerce web application and for running on your local environment you should follow these guidelines.
-
-
-### Prerequisites
-
-- NPM
-- Node JS
-- MongoDB
-
-### Setup
-
-
-The project repository can be found in [GitHub link](https://github.com/singhprakash14/Becho.com) or just clone the project using this command.
-
-
-```
-Using HTTPS
-
-# git clone https://github.com/singhprakash14/becho.com.git
-```
-
-+ Open terminal on your workspace with
-
-```
-cd /home/workspace/becho.com
-```
-
-
-## Install
-
-Install NPM
-
-Check that you have node and npm installed
-
-To check if you have Node.js installed, run this command in your terminal:
-
-
-```
-node -v
-```
-
-To confirm that you have npm installed you can run this command in your terminal:
-
-
-```
-npm -v
-```
-
-To confirm that you have MongoDB installed you can run this command in your terminal:
-
-
-```
-mongo -v
-```
-
-
-To install all the dependences of the project, run the following command:
-
-
-```
-
-npm install
-```
-
-
-To run the application got to the client folder and run the following command:
-
-```
-npm start
-```
+This project was built using  HTML, CSS, JavaScript . It is an e-commerce web application and for running on your local environment you should follow these guidelines.
 
 
 
