@@ -11,9 +11,6 @@
 
 <br />
 
-<h2 align="center">🖥️ Tech Stack</h2>
-
-
 ## Team Members.
 1.	Mr. Prakash singh [Team Leader].
 2.	Mr. Shubham singh
@@ -21,8 +18,8 @@
 4.	Mr. Ramendra Kumar.
 5.  Mr. Param Raj.
 
+<h2 align="center">🖥️ Tech Stack</h2>
 <h4 align="center">Frontend:</h4>
-
 <p align="center">
 
 
@@ -30,6 +27,10 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
 </p>
+
+<h2 align="center">Backend:</h2>
+
+<h3 align="center">LocalStorage</h3>
 
 
 <h4 align="center">Deployed On:</h4>
