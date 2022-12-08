@@ -77,11 +77,9 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 
 ## 🚀 Features
 - Login and Signup User Account
-- Product Filters Based on Price
-- Product Sorting Based on hight to low
-- Product Filtering and Sorting works together 
-- Wishlist Add and Remove Items
-- favourites Add and Remove Items 
+- Pricing Listing Page
+- Demo/calendly booking
+- Read a Blog
 <br />
 
 ## Glimpses of TimeCamp-Clone :
