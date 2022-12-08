@@ -83,7 +83,7 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 - favourites Add and Remove Items 
 <br />
 
-## Glimpses of Becho.com🙈 :
+## Glimpses of TimeCamp-CLone :
 
 
 <table>
