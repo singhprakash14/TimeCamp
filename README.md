@@ -64,9 +64,10 @@ TimeCamp (clone) is a web-based application  to track the activity of computer u
 
 ## Screens ( All screens are responsive )
 - Homepage / Landing Page
-- Pricing Listing Page with Filters
+- Pricing Listing Page 
 - Pricing Description Page
-- Wishlist/Favourites Management Page
+- Bloging Page
+- DemoPage
 - Login / Logout Page
 - Signup Page
 
